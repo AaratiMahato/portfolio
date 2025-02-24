@@ -173,8 +173,8 @@ themeButton.addEventListener('click', () => {
 function sendEmail() {
     Email.send({
         SecureToken: "a256e913-19a0-425e-8547-54f29a935902",
-        To: 'sidportfolio@outlook.com',
-        From: 'sidportfolio@outlook.com',
+        To: 'aaratimahato777@gmail.com',
+        From: 'aaratimahato777@gmail.com',
         Subject: document.getElementById("project").value,
         Body: "Name: " + document.getElementById("name").value + "<br> Email: " + document.getElementById("email").value + "<br> Project: " + document.getElementById("project").value + "<br><hr><br>" + document.getElementById("message").value
     }).then(
