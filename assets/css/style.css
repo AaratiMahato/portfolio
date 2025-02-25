@@ -22,7 +22,7 @@
     --text-color-light: hsl(var(--hue-color), 8%, 65%);
     --input-color: hsl(var(--hue-color), 70%, 96%);
     --body-color: hsl(var(--hue-color), 60%, 99%);
-    --container-color: #fff;
+    --container-color: hsl(var(--hue-color), 69%, 61%);
     --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
     --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
 
@@ -75,7 +75,7 @@
   /*========== Variables Dark theme ==========*/
   body.dark-theme {
     /* --first-color-second: hsl(var(--hue-color), 69%, 61%); */
-    --first-color-second: hsl(var (--hue-color), 30%, 8%);
+    --first-color-second: hsl(var(--hue-color), 30%, 8%);
     --title-color: hsl(var(--hue-color), 8%, 95%);
     --text-color: hsl(var(--hue-color), 8%, 75%);
     --input-color: hsl(var(--hue-color), 29%, 16%);
@@ -754,6 +754,8 @@
   .project__img {
     width: 200px;
     justify-self: center;
+    border-bottom-right-radius: 0.9rem;
+    display: block;
   }
 
   /*==================== TESTIMONIAL ====================*/
@@ -808,6 +810,10 @@
     padding: .25rem .5rem .5rem 0;
   }
 
+  textarea {
+    resize: none;
+    min-height: 150px;
+  }
   /*==================== FOOTER ====================*/
   .footer {
     padding-top: 2rem;
@@ -1137,14 +1143,15 @@
     .project__bg {
       background: none;
     }
-
+    
     .project__container {
-      background-color: rgb(87, 206, 224);
+      background-color: var(--container-color);
       border-radius: 1rem;
-      padding: 3rem 2.5rem 0;
+      padding: 3rem 0rem 0 2.5rem;
       grid-template-columns: 1fr max-content;
       column-gap: 3rem;
     }
+    
 
     .project__data {
       padding-top: .8rem;
