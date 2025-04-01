@@ -515,15 +515,15 @@
   }
 
   .skills__html {
-    width: 95%;
+    width: 80%;
   }
 
   .skills__css {
-    width: 90%;
+    width: 75%;
   }
 
   .skills__js {
-    width: 60%;
+    width: 55%;
   }
 
   /* .skills__flutter {
@@ -531,15 +531,15 @@
   } */
 
   .skills__sql {
-    width: 80%;
+    width: 75%;
   }
 
   .skills__numpy {
-    width: 90%;
+    width: 60%;
   }
 
   .skills__pandas {
-    width: 90%;
+    width: 65%;
   }
 
   .skills__plt {
@@ -547,14 +547,14 @@
   }
 
   .skills__python {
-    width: 80%;
+    width: 75%;
   }
   .skills__pythonSkill3{
     width: 80%;
   }
 
   .skills__cpp {
-    width: 90%;
+    width: 80%;
   }
 
   .skills__iOS {
